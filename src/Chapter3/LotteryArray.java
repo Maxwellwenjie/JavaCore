@@ -1,3 +1,5 @@
+package Chapter3;
+
 public class LotteryArray {
     public static void main(String[] args) {
         final int NMAX = 10;
