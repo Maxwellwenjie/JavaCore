@@ -1,7 +1,5 @@
 package Chapter5;
 
-import Chapter4.Employee;
-
 public class ManagerTest {
     public static void main(String[] args) {
         Manager boss = new Manager("Carl cracker", 80000, 1987, 12, 15);

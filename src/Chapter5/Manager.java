@@ -1,7 +1,5 @@
 package Chapter5;
 
-import Chapter4.Employee;
-
 public class Manager extends Employee {
     private double bouns;
 
@@ -17,5 +15,19 @@ public class Manager extends Employee {
 
     public void setBouns(double b){
         bouns = b;
+    }
+
+    public boolean equals(Object otherObject){
+        if(!super.equals(otherObject)) return false;
+        Manager other = (Manager) otherObject;
+        return bouns == other.bouns;
+    }
+
+    public int hashCode(){
+        return super.hashCode()+17*new Double(bouns).hashCode();
+    }
+
+    public String toString(){
+        return super.toString()+"[bonus="+bouns+"]";
     }
 }
