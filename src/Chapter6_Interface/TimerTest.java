@@ -1,4 +1,4 @@
-package Chapter6;
+package Chapter6_Interface;
 
 import java.awt.*;
 import java.awt.event.*;

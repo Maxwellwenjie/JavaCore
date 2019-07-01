@@ -1,4 +1,4 @@
-package Chapter6;
+package Chapter6_Interface;
 
 public class CloneTest {
     public static void main(String[] args) {

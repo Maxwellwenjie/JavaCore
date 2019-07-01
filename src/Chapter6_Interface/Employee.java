@@ -1,4 +1,4 @@
-package Chapter6;
+package Chapter6_Interface;
 
 public class Employee implements Comparable<Employee>{
     private String name;
