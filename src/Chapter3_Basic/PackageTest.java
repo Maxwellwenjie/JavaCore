@@ -1,6 +1,6 @@
-package Chapter3;
+package Chapter3_Basic;
 
-import Chapter4.Employee;
+import Chapter4_Object.Employee;
 import static java.lang.System.*;
 public class PackageTest {
     public static void main(String[] args) {

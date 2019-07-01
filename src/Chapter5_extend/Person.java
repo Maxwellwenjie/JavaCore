@@ -1,4 +1,4 @@
-package Chapter5;
+package Chapter5_extend;
 
 public abstract class Person {
 

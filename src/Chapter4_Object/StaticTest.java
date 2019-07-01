@@ -1,4 +1,4 @@
-package Chapter4;
+package Chapter4_Object;
 
 public class StaticTest {
     public static void main(String[] args) {

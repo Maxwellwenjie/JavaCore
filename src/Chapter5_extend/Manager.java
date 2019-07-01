@@ -1,4 +1,4 @@
-package Chapter5;
+package Chapter5_extend;
 
 public class Manager extends Employee {
     private double bouns;
