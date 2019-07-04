@@ -17,6 +17,10 @@ public class Manager extends Employee {
         bouns = b;
     }
 
+    public double getBouns() {
+        return bouns;
+    }
+
     public boolean equals(Object otherObject){
         if(!super.equals(otherObject)) return false;
         Manager other = (Manager) otherObject;
